@@ -33,7 +33,7 @@
         send_fun=nil,
         body_state=waiting,
         multipart=nil,
-        req_chunk_size=4096,
+        req_chunk_size=409600,
         buffer = <<>>,
         partial_headers = [],
         version,
